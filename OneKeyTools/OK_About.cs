@@ -38,12 +38,7 @@ namespace OneKeyTools
 
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://coding.net/u/slibe/p/OneKeyTools/git/tree/master/");
-        }
-
-        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://coding.net/u/slibe/p/OneKeyTools/git/tree/OK7");
+            System.Diagnostics.Process.Start("https://coding.net/u/slibe/p/OneKeyTools8/git");
         }
     }
 }

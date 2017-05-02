@@ -43,8 +43,6 @@
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,7 +79,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(245, 35);
+            this.label2.Location = new System.Drawing.Point(245, 36);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(176, 34);
@@ -212,12 +210,12 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.label6.Location = new System.Drawing.Point(87, 197);
+            this.label6.Location = new System.Drawing.Point(136, 197);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 22);
+            this.label6.Size = new System.Drawing.Size(172, 22);
             this.label6.TabIndex = 1;
-            this.label6.Text = "6.4.7版本已开源";
+            this.label6.Text = "OK 8 Ultimate已开源";
             // 
             // linkLabel5
             // 
@@ -226,7 +224,7 @@
             this.linkLabel5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.linkLabel5.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.linkLabel5.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkLabel5.Location = new System.Drawing.Point(111, 224);
+            this.linkLabel5.Location = new System.Drawing.Point(181, 224);
             this.linkLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(74, 21);
@@ -234,34 +232,6 @@
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "开源地址";
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
-            // 
-            // linkLabel6
-            // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.linkLabel6.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
-            this.linkLabel6.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkLabel6.Location = new System.Drawing.Point(259, 224);
-            this.linkLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(74, 21);
-            this.linkLabel6.TabIndex = 0;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "开源地址";
-            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.label9.Location = new System.Drawing.Point(241, 197);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 22);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "7.0版本已开源";
             // 
             // OK_About
             // 
@@ -277,9 +247,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.linkLabel6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel5);
             this.Controls.Add(this.linkLabel3);
@@ -316,7 +284,5 @@
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.Label label9;
     }
 }
