@@ -973,7 +973,7 @@ namespace OneKeyTools
                     TipSound();
                     Globals.Ribbons.Ribbon1.button87_Click(null, null);
                     break;
-                case "去除分割线":
+                case "去分割线":
                     TipSound();
                     Globals.Ribbons.Ribbon1.button72_Click(null, null);
                     break;
@@ -1000,10 +1000,6 @@ namespace OneKeyTools
                 case "保留格式":
                     TipSound();
                     Globals.Ribbons.Ribbon1.checkBox1_Click(null, null);
-                    break;
-                case "原形状不变":
-                    TipSound();
-                    Globals.Ribbons.Ribbon1.checkBox2_Click(null, null);
                     break;
                 case "选图分页1":
                     TipSound();

@@ -16677,14 +16677,7 @@ namespace OneKeyTools
 
         public void checkBox2_Click(object sender, RibbonControlEventArgs e)
         {
-            if (checkBox2.Checked)
-            {
-                checkBox2.Checked = false;
-            }
-            else
-            {
-                checkBox2.Checked = true;
-            }
+
         }
 
         public void button233_Click(object sender, RibbonControlEventArgs e)

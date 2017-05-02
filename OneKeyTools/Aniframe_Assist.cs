@@ -159,7 +159,7 @@ namespace OneKeyTools
         private void button4_Click(object sender, EventArgs e)
         {
             PowerPoint.Selection sel = app.ActiveWindow.Selection;
-            if (sel.Type != PowerPoint.PpSelectionType.ppSelectionShapes)
+            if (sel.Type == PowerPoint.PpSelectionType.ppSelectionShapes)
             {
                 for (int i = 1; i <= sel.ShapeRange.Count; i++)
                 {
