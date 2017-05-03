@@ -17196,9 +17196,16 @@ namespace OneKeyTools
 
         private void button246_Click(object sender, RibbonControlEventArgs e)
         {
-            tab2.Visible = false;
-            Properties.Settings.Default.tab2 = 0;
-            Properties.Settings.Default.Save();
+            if (tab1.Visible == false)
+            {
+                MessageBox.Show("隐藏主卡后，不能同时隐藏副卡");
+            }
+            else
+            {
+                tab2.Visible = false;
+                Properties.Settings.Default.tab2 = 0;
+                Properties.Settings.Default.Save();
+            }
         }
 
         public void button247_Click(object sender, RibbonControlEventArgs e)
