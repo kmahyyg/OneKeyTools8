@@ -13,6 +13,6 @@ Microsoft Visual Studio 2012、C#
 运行环境1：Microsoft .Net Framework 4.0及更高<br>
 运行环境2：Microsoft Visual Studio 2010 Tools for Office Runtime
 ##特别声明
-1.开源仅为提供学习之用，请勿用于商业
-2.OK的GIF工具使用的是GifComponents（开源GIF库）
+1.开源仅为提供学习之用，请勿用于商业<br>
+2.OK的GIF工具使用的是GifComponents（开源GIF库）<br>
 3.OK的音频拆合等相关功能使用的是NAudio（开源音频库）
