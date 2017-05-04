@@ -213,7 +213,7 @@ namespace OneKeyTools
                     TipSound();
                     Globals.Ribbons.Ribbon1.button13_Click(null, null);
                     break;
-                case "去文本边框":
+                case "去文本边距":
                     TipSound();
                     Globals.Ribbons.Ribbon1.button174_Click(null, null);
                     break;
