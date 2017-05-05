@@ -249,7 +249,7 @@ namespace OneKeyTools
                     TipSound();
                     Globals.Ribbons.Ribbon1.button137_Click(null, null);
                     break;
-                case "取消纵横比":
+                case "去除纵横比":
                     TipSound();
                     Globals.Ribbons.Ribbon1.button139_Click(null, null);
                     break;
